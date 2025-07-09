@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    background-color: #002b5c;
+    color: white;
+}
+
+.Nav-Container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 0;
+    flex-wrap: wrap;
+}
+
+.Nav-Container img {
+    width: 140px;
+    height: auto;
+}
+
+.Nav-Title p,
+.Cite-Score p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+
+.list-Container {
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.list a,
+.dropbtn {
+    text-decoration: none;
+    color: #002b5c;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.dropbtn:hover,
+.list a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+    text-decoration: none;
+}
+
+
+.list-item {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 180px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px 15px;
+    color: #002b5c;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.dropdown-content a:hover {
+    background-color: #e6e6e6;
+    color: #000;
+}
+
+.list-item:hover .dropdown-content {
+    display: block;
+}
+
+/* ===== Footer ===== */
+.footer {
+    background-color: #002b5c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer-content p {
+    margin: 6px 0;
+}
+
+
+@media (max-width: 768px) {
+    .list {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .Nav-Container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Nav-Container img {
+        margin-bottom: 10px;
+    }
+
+    .Nav-Title p,
+    .Cite-Score p {
+        font-size: 13px;
+    }
+
+    .dropdown-content {
+        position: static;
+        box-shadow: none;
+        background-color: transparent;
+    }
+
+    .dropdown-content a {
+        background-color: #f5f5f5;
+        border-top: 1px solid #ddd;
+        padding-left: 20px;
+    }
+
+    .list-item:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropbtn {
+        width: 100%;
+        text-align: left;
+    }
+}
+
+.footer {
+    background-color: #002b5c;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer-content p {
+    margin: 6px 0;
+    line-height: 1.6;
+}
+
+
+@media (max-width: 480px) {
+
+    .Nav-Title p,
+    .Cite-Score p {
+        font-size: 12px;
+    }
+
+    .dropbtn {
+        font-size: 14px;
+    }
+
+    .dropdown-content a {
+        font-size: 13px;
+    }
+}
