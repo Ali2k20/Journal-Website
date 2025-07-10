@@ -4,7 +4,7 @@
   margin: 60px auto 40px;
   line-height: 1.7;
   color: #333;
-  font-family: 'Lato', sans-serif;
+  
 }
 
 .Aim h1,
@@ -13,6 +13,10 @@
   margin-bottom: 20px;
   font-size: 28px;
   line-height: 1.3;
+}
+.Aim h1 {
+  border-bottom: 2px solid #002b5c;
+  text-align: center;
 }
 
 .Aim p {

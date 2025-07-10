@@ -2,14 +2,16 @@
   margin: 50px auto;
   width: 90%;
   max-width: 1000px;
-  font-family: 'Lato', sans-serif;
   overflow-x: auto;
 }
 
 .Tables h1 {
   color: #002b5c;
-  margin-bottom: 20px;
-  font-size: 28px;
+  margin-bottom: 28px;
+  font-size: 2em;
+  border-bottom: 2px solid #002b5c;
+  padding-bottom: 8px;
+  text-align: center;
 }
 
 .Tables ul {
@@ -47,6 +49,14 @@
 
 .Tables tbody tr:nth-child(even) {
   background-color: #f9f9f9;
+}
+.table-label {
+  color: #0074D9;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 32px 0 12px 0;
+  
+  
 }
 
 
