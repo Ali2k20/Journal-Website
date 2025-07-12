@@ -5,14 +5,7 @@
   overflow-x: auto;
 }
 
-.Tables h1 {
-  color: #002b5c;
-  margin-bottom: 28px;
-  font-size: 2em;
-  border-bottom: 2px solid #002b5c;
-  padding-bottom: 8px;
-  text-align: center;
-}
+
 
 .Tables ul {
   list-style: none;
